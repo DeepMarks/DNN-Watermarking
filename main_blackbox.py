@@ -7,7 +7,7 @@ from DeepMarks import count_response_mismatch
 from DeepMarks import compute_mismatch_threshold
 
 import keras.utils.np_utils as kutils
-from utils import create_model
+from topology import create_model
 from keras.optimizers import SGD
 from keras.datasets import mnist
 import numpy as np
