@@ -25,3 +25,6 @@ Python
 
 
 ## Introduction
+
+## References
+[1] Y. Uchida, Y. Nagai, S. Sakazawa, and S. Satoh, "Embedding Watermarks into Deep Neural Networks," ICMR, 2017. <br />
