@@ -12,7 +12,7 @@ Noah Mamié (17-607-714)
 </p>
 
 <p align="center">
-Watermarking Deep Neural Networks <br />
+Watermarking Deep Neural Networks -- <br />
 An Effective Strategy to Protect Intellectual Property Rights on Self-Learning Systems <br />
 November 16, 2020
 </p>
