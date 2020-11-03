@@ -1,4 +1,5 @@
-# This code is imported and adapted from the following project: https://github.com/titu1994/Wide-Residual-Networks
+ # this Wide Residual Network (WRN) presents a possible (complex)
+ # network architecture in which watermarks could be embedded in
 
 from keras.models import Model
 from keras.layers import Input, concatenate, Activation, Dropout, Flatten, Dense
@@ -151,7 +152,7 @@ def create_wide_residual_network(input_dim, nb_classes=100, N=2, k=1, dropout=0.
     return model
 
 if __name__ == "__main__":
-    #from keras.utils.visualize_util import plot
+    # from keras.utils.visualize_util import plot
     from keras.layers import Input
     from keras.models import Model
 
@@ -160,4 +161,4 @@ if __name__ == "__main__":
     wrn_28_10 = create_wide_residual_network(init, nb_classes=100, N=4, k=10, dropout=0.25)
 
     wrn_28_10.summary()
-    #plot(wrn_28_10, "WRN-28-10.png", show_shapes=True, show_layer_names=True)
+    # plot(wrn_28_10, "WRN-28-10.png", show_shapes=True, show_layer_names=True)
