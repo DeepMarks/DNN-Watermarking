@@ -3,7 +3,7 @@
 </p>
 <br />
 
-# Bachelor's Thesis Project: # 
+# Bachelor's Thesis Project: Watermarking DNNs # 
 
 <br />
 
@@ -13,7 +13,7 @@ Noah Mamié (17-607-714)
 
 <p align="center">
 <b> Watermarking Deep Neural Networks &mdash; <br />
-An Effective Strategy to Protect Intellectual Property Rights on Self-Learning Systems <b /> <br />
+An Effective Strategy to Protect Intellectual Property Rights on Self-Learning Systems </b> <br />
 November 16, 2020
 </p>
 
