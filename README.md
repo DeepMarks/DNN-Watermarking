@@ -19,12 +19,13 @@ November 16, 2020
 
 <p align="center">
 Prof. Dr. Naomi Haefner <br />
-Python
+Language: Python
 </p>
 <br />
 
 
 ## Introduction
+The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code
 
 ## References
 [1] Y. Uchida, Y. Nagai, S. Sakazawa, and S. Satoh, "Embedding Watermarks into Deep Neural Networks," ICMR, 2017. <br />
