@@ -3,7 +3,7 @@
 </p>
 <br />
 
-# Bachelor's Thesis Project: Watermarking DNNs # 
+# Bachelor's Thesis Project on Watermarking DNNs # 
 
 <br />
 
@@ -25,7 +25,10 @@ Language: Python
 
 
 ## Introduction
-The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code
+The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a DNN. In the following, the contents of the repository are outlined.
+
+## DeepMarks: Watermarking a DNN in a Black-Box Setting
+
 
 ## References
 [1] Y. Uchida, Y. Nagai, S. Sakazawa, and S. Satoh, "Embedding Watermarks into Deep Neural Networks," ICMR, 2017. <br />
