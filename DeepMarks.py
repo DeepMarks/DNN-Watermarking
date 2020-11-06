@@ -1,4 +1,4 @@
- # the DeepMarks programs defines the
+ # the DeepMarks program defines the
  # functionality of the main black-box setting
 
 from __future__ import division
