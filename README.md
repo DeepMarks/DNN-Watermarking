@@ -19,16 +19,27 @@ November 16, 2020
 
 <p align="center">
 Prof. Dr. Naomi Haefner <br />
-Language: Python
+<i> Language: Python </i>
 </p>
 <br />
 
 
 ## Introduction
-The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined, including a main black-box setting and two support programs.
+The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined, including a main black-box setting and two support programs. These additional programs define the functionality of the main program and the architecture of the underlying DNN. Finally, a Wide Residual Network (WRN) topology is illustrated, aiming at a better understanding of the complex structure DNNs can possess.
 
-## DeepMarks: Watermarking a DNN in a Black-Box Setting
+## Watermarking a DNN in a Black-Box Setting
 
+## DeepMarks: The Functionality of the Black-Box
+
+## DNN Topology
+
+## WRN-28-8
+The Neural Network shown below is a WRN-28-8 model. This model and its more powerful brother, the WRN-28-10 model possess ideal architectures to for image recognition on large datasets, e.g. CIFAR10.
+
+<p align="center"> 
+<img src="https://github.com/DeepMarks/DNN-Watermarking/blob/main/images/WRN-28-8.png">
+</p>
+<br />
 
 ## References
 [1] Majumdar, S., Denouden, T., Uchida, Y., Saha, D., & Moser, N. (2018, June 25). Wide Residual Networks in Keras. Retrieved October 14, 2020, from https://github.com/titu1994/Wide-Residual-Networks. <br />
