@@ -29,7 +29,7 @@ The code in this project serves as a practical implementation of the theoretical
 
 ## Watermarking a DNN in a Black-Box Setting
 The main procedure of this black-box setting involves importing and training a dataset (in this case MNIST) and embedding an owner-specific Watermark (WM) in specific layers of the DNN model that is used to train the data. This DNN was previously defined in DeepMarks.py and topology.py, whose specific functions are described in the following sections. In the end, the black-box watermarking framework detects the WM information and outputs a Boolean decision (Theta) on whether the marked model is correctly authenticated by owner (Rouhani et al., 2019). <br />
-Thereby, a possible output scenario where the DNN has indeed been replicated by a malicious third-party user might look like this:
+Thereby, a possible output scenario where the DNN has indeed been replicated by a malicious third-party user might look like this (NOTE: Accuracy of the marked model is at 98.65%, indicating no degradation from the unmarked model):
 ```bash
 60800/60800 [==============================] - 5s 86us/step - loss: 0.6138 - accuracy: 0.9865 - val_loss: 0.2926 - val_accuracy: 0.9837
 Usable key len is:  74
