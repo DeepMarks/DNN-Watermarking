@@ -28,17 +28,19 @@ Prof. Dr. Naomi Haefner <br />
 The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined, including a main black-box setting and two support programs. These additional programs define the functionality of the main program and the architecture of the underlying DNN. Finally, a Wide Residual Network (WRN) topology is illustrated, aiming at a better understanding of the complex structure DNNs can possess.
 
 ## Watermarking a DNN in a Black-Box Setting
-The main procedure of this black-box setting involves importing and training a dataset (in this case MNIST-MLP) and embedding an owner-specific Watermark (WM) in specific layers of the model that is used to train the data. This DNN was previously defined in DeepMarks, whose specific functions are described in the next section. In the end, the black-box watermarking framework detects the WM information and outputs a Boolean decision on whether the marked model is correctly authenticated by owner. <br />
-The requirements to run this program in Python are: Keras 1.1.2 (<1.2.0), tensorflow 0.12.1 (<1.0.0), numpy, matplotlib and pandas:
+The main procedure of this black-box setting involves importing and training a dataset (in this case MNIST-MLP) and embedding an owner-specific Watermark (WM) in specific layers of the DNN model that is used to train the data. This DNN was previously defined in DeepMarks.py and topology.py, whose specific functions are described in the following sections. In the end, the black-box watermarking framework detects the WM information and outputs a Boolean decision (Theta) on whether the marked model is correctly authenticated by owner. <br />
+The requirements to run this program in Python are: Keras 2.3.1, tensorflow 2.3.1, numpy, matplotlib and pandas:
 ```bash
-pip install keras==1.1.2
-pip install tensorflow==0.12.1
-pip install tensorflow-gpu==0.12.1
+pip install keras==2.3.1
+pip install tensorflow==2.3.1
+pip install tensorflow-gpu==1.14.0
 ```
 
 ## DeepMarks: The Functionality of the Black-Box
+DeepMark's main purpose is defining the functions which are called by the black-box setting. These functions include the computation of the mismatch threshold, the key generation and, finally, a counter for the response mismatch, allowing the main program the determination of the model's original owner.
 
 ## DNN Topology
+This program defines the model internal of the DNN used in this black-box setting. Thereby, a ReLU activation function is applied throughout most layers of the DNN, while a softmax function is utilized as the last activation function to normalize the output to a probability distribution over predicted output classes.
 
 ## WRN-28-8
 The Neural Network shown below is a WRN-28-8 model. This model and its more powerful brother, the WRN-28-10 model, possess ideal architectures to for image recognition on large datasets, e.g. CIFAR10. The network structure of a WRN is thereby powerful enough to outperform even the deepest residual networks, since the issue of diminishing feature reuse does not occur.
