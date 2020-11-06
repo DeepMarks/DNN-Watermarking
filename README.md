@@ -3,7 +3,7 @@
 </p>
 <br />
 
-# Bachelor's Thesis Project on Watermarking DNNs # 
+# Bachelor's Thesis: Project on Watermarking DNNs # 
 
 <br />
 
