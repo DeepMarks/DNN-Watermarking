@@ -47,7 +47,7 @@ pip install tensorflow-gpu==1.14.0
 ```
 
 ## DeepMarks: The Functionality of the Black-Box
-DeepMark's main purpose is defining the functions which are called by the black-box setting. These functions include the computation of the mismatch threshold, the key generation and, finally, a counter for the response mismatch, allowing the main program the determination of the model's original owner.
+DeepMarks' main purpose is defining the functions which are called by the black-box setting. These functions include the computation of the mismatch threshold, the key generation and, finally, a counter for the response mismatch, allowing the main program the determination of the model's original owner.
 
 ## DNN Topology
 This program defines the model internal of the DNN used in this black-box setting. Thereby, a ReLU activation function is applied throughout most layers of the DNN, while a softmax function is utilized as the last activation function to normalize the output to a probability distribution over predicted output classes.
