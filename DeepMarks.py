@@ -73,10 +73,10 @@ def key_generation(x_train, y_train, marked_model, desired_key_len, num_classes=
         selected_keys = x_retrain_rand[np.array(selected_key_idx).astype(int), :]
         selected_keys_labels = y_retrain_rand[np.array(selected_key_idx).astype(int)]
         usable_key_len = selected_keys.shape[0]
-        print('usable key len is: ', usable_key_len)
+        print('Usable key len is: ', usable_key_len)
         if usable_key_len < desired_key_len:
             key_gen_flag = 1
-            print(' Desire key length is {}, Need longer key, skip this test. '.format(desired_key_len))
+            print(' Desired key length is {}, Longer key needed, skip this test. '.format(desired_key_len))
         else:
             key_gen_flag = 0
             selected_keys = selected_keys[0:desired_key_len, :]
