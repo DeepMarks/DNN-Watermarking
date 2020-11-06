@@ -25,7 +25,7 @@ Language: Python
 
 
 ## Introduction
-The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined.
+The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined, including a main black-box setting and two support programs.
 
 ## DeepMarks: Watermarking a DNN in a Black-Box Setting
 
