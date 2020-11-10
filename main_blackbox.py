@@ -1,3 +1,8 @@
+ # this project combines the ideas behind the watermarking
+ # frameworks of Rouhani et al. (2019) and Quan et al. (2020).
+ 
+ -------------------------------------------------------------
+ 
  # main program to watermark a DNN and
  # detect original ownership in a black-box setting
 
