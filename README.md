@@ -1,4 +1,4 @@
-# Project on Watermarking DNNs # 
+# Project on Watermarking Deep Neural Networks # 
 
 
 ## Introduction
