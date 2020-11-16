@@ -1,31 +1,19 @@
-<p align="center"> 
-<img src="https://github.com/TheTrueMrbequiet/Boolean-Coin/blob/master/HSG%20Logo.jpg">
-</p>
-<br />
-
 # Bachelor's Thesis: Project on Watermarking DNNs # 
 
 <br />
 
 <p align="center">
-Noah Mamié (17-607-714)
+Noah Mamié
 </p>
 
 <p align="center">
-<b> Watermarking Deep Neural Networks &mdash; <br />
-An Effective Strategy to Protect Intellectual Property Rights on Self-Learning Systems </b> <br />
-November 16, 2020
-</p>
-
-<p align="center">
-Prof. Dr. Naomi Haefner <br />
 <i> Language: Python </i>
 </p>
 <br />
 
 
 ## Introduction
-The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the thesis. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined, including a main black-box setting and two support programs (Rouhani, Chen, & Koushanfar, 2019; Quan, Teng, Chen, & Ji, 2020). These additional programs define the functionality of the main program and the architecture of the underlying DNN. Finally, a Wide Residual Network (WRN) topology is illustrated, aiming at a better understanding of the complex structure DNNs can possess (Uchida, Nagai, Sakazawa, & Satoh, 2017).
+The code in this project serves as a practical implementation of the theoretical concepts discussed in the "Digital Watermarking" section of the project. Thereby, the author consulted existing approaches and compiled a repository with working code to illustrate the embedding and extraction process of digital watermarks into a Deep Neural Network (DNN). In the following, the contents of the repository are outlined, including a main black-box setting and two support programs (Rouhani, Chen, & Koushanfar, 2019; Quan, Teng, Chen, & Ji, 2020). These additional programs define the functionality of the main program and the architecture of the underlying DNN. Finally, a Wide Residual Network (WRN) topology is illustrated, aiming at a better understanding of the complex structure DNNs can possess (Uchida, Nagai, Sakazawa, & Satoh, 2017).
 
 ## Watermarking a DNN in a Black-Box Setting
 The main procedure of this black-box setting involves importing and training a dataset (in this case MNIST) and embedding an owner-specific Watermark (WM) in specific layers of the DNN model that is used to train the data. This DNN was previously defined in DeepMarks.py and topology.py, whose specific functions are described in the following sections. In the end, the black-box watermarking framework detects the WM information and outputs a Boolean decision (Theta) on whether or not the marked model is correctly authenticated by owner (Rouhani et al., 2019). <br />
